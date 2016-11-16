@@ -44,14 +44,14 @@ public class MyApplication extends Application {
         //初始化讯飞语音
         SpeechUtility.createUtility(this, "appid=57d0df43");
         //初始化云测
-        TestinAgent.init(this, "019cc0a31ffab5740c685c6cf3a2ae18", null);
+/*        TestinAgent.init(this, "019cc0a31ffab5740c685c6cf3a2ae18", null);
 //        友盟分享和登录
         //微信 appid appsecret
         PlatformConfig.setWeixin("wxafceb940b5fd67a0", "ca3653563244ab1ab4056464446403ab");
         //新浪微博 appkey appsecret
         PlatformConfig.setSinaWeibo("1109305130","12bf679612df94be5a7bc6459fb93f75");
         // QQ和Qzone appid appkey
-        PlatformConfig.setQQZone("1105570889", "vx7p91NQqmKW9YAD");
+        PlatformConfig.setQQZone("1105570889", "vx7p91NQqmKW9YAD");*/
     }
 
     private void initGreenDao() {
